@@ -22,6 +22,7 @@ bot.command('dao_manage', ctx => {})
 // roles
 bot.command('dao_add-role', ctx => {})
 bot.command('dao_add-member', ctx => {})
+bot.command('dao_remove-member', ctx => {})
 bot.command('dao_set-role-to-member', ctx => {})
 
 // votings
@@ -31,4 +32,24 @@ bot.command('dao_voting-get', ctx => {})
 bot.command('dao_voting-vote', ctx => {})
 bot.command('dao_voting-get-result', ctx => {})
 
+// moneyflow
+bot.command('dao_moneyflow-set', ctx => {})
+bot.command('dao_sell-part', ctx => {})
+bot.command('dao_pay', ctx => {})
+
+// agreements
+bot.command('dao_agreement-create', ctx => {})
+bot.command('dao_agreement-get-all', ctx => {})
+bot.command('dao_agreement-get', ctx => {})
+
+
 bot.launch()
+
+
+/*
+	for DAO in DAOs
+		inspect state every day:
+			if need to pay => pay
+			if need to smth => smth
+
+*/
