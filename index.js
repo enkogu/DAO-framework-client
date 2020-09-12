@@ -35,18 +35,37 @@ bot.command('dao_voting-get-result', ctx => {})
 // moneyflow
 bot.command('dao_moneyflow-set', ctx => {})
 bot.command('dao_sell-part', ctx => {})
-bot.command('dao_pay', ctx => {})
+bot.command('dao_buy-product', ctx => {})
+bot.command('dao_buy-subscription', ctx => {})
 
 // agreements
 bot.command('dao_agreement-create', ctx => {})
 bot.command('dao_agreement-get-all', ctx => {})
 bot.command('dao_agreement-get', ctx => {})
 
+// CRUD services and products
+bot.command('dao_product-create', ctx => {})
+bot.command('dao_product-get', ctx => {})
+bot.command('dao_product-get-all', ctx => {})
+bot.command('dao_product-update', ctx => {})
+bot.command('dao_product-remove', ctx => {})
+
+bot.command('dao_service-create', ctx => {})
+bot.command('dao_service-get', ctx => {})
+bot.command('dao_service-get-all', ctx => {})
+bot.command('dao_service-update', ctx => {})
+bot.command('dao_service-remove', ctx => {})
+
+
+
+
 
 bot.launch()
 
 
 /*
+	SEPARATE SERVICE (event loop)
+
 	for DAO in DAOs
 		inspect state every day:
 			if need to pay => pay
