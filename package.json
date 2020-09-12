@@ -1,0 +1,24 @@
+{
+  "name": "hackathon-DAO",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkogu/hoam-js-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enkogu/hoam-js-bot/issues"
+  },
+  "homepage": "https://github.com/enkogu/hoam-js-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0",
+    "request-promise": "^4.2.5",
+    "telegraf": "^3.38.0"
+  }
+}
